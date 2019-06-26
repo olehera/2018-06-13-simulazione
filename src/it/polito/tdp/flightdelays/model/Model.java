@@ -64,7 +64,7 @@ public class Model {
 	public List<Passeggero> simula(int K, int V) {
 		
 		sim = new Simulatore();
-		sim.init(K, V, grafo);
+		sim.init(K, V, aereoporti);
 		sim.run();
 		
 		return sim.getPasseggeri();
